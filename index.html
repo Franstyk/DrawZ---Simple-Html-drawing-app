@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DrawZ</h1>
+        <canvas id="drawingCanvas" width="800" height="500"></canvas>
+        <div class="controls">
+            <button id="clearButton">Clear</button>
+            <label for="colorPicker">Choose Color:</label>
+            <input type="color" id="colorPicker" value="#000000">
+            <label for="lineWidth">Line Width:</label>
+            <input type="number" id="lineWidth" value="5" min="1" max="100">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

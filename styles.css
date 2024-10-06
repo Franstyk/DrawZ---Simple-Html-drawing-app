@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    touch-action: none; /* Prevents scrolling on touch devices */
+}
+
+.controls {
+    margin-top: 10px;
+}
